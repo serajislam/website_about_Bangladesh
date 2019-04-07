@@ -520,7 +520,7 @@
 #national_symbol_page
 {
 	width: 1500px;
-	height: 6050px;
+	height: 5800px;
 	margin: auto;
 }
 
@@ -549,6 +549,33 @@
 #national_symbol_image
 {
 	margin-left: 70px;
+}
+
+
+/*National Zoo Bangladesh Page */
+
+
+.national_zoo
+{
+	width: 1500px;
+	height: 3000px;
+	margin: auto;
+
+}
+
+#National_Zoo_Page
+{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	font-family: 'Amaranth', sans-serif;
+}
+#national_zoo_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	
 }
 
 
