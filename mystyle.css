@@ -558,7 +558,7 @@
 .national_zoo
 {
 	width: 1500px;
-	height: 3000px;
+	height: 3200px;
 	margin: auto;
 
 }
@@ -576,6 +576,12 @@
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 	
+}
+
+.zoo_image
+{
+	float: left;
+	margin-left: 8px;
 }
 
 
