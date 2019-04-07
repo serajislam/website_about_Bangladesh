@@ -1,0 +1,561 @@
+
+
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+#wrap
+{
+	height: 1570px;
+	width: 1500px;
+	
+	margin: auto;
+
+}
+
+
+/* Header Part */
+
+#header
+{
+	height: 290px;
+	background-color: #C0C0C0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	
+}
+
+.header_part
+{
+	float: left;
+}
+
+#right_image
+{
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+
+#visit_bangladesh
+{
+	font-size: 40px;
+	font-family: 'Indie Flower', cursive;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-left: 170px;
+
+}
+
+
+#sundarban_image
+{
+	
+	margin-left: 5px;
+	margin-top: 5px;
+
+}
+
+
+
+/* Menu Part*/
+
+#welcome_page
+{
+	font-size: 30px;
+	font-family: 'Teko', sans-serif;
+	margin-top: 20px;
+	color: #FF0000;
+
+
+}
+
+#bangladesh_text
+{
+	text-align: justify;
+	font-size: 23px;
+
+
+}
+
+
+#menu ul
+{
+	list-style: none;
+}
+
+#menu ul li 
+{
+	position: relative;
+	height: 50px;
+	width: 250px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	background-color: #DCDCDC;
+	font-size: 21px;
+	 font-family: 'Oswald', sans-serif;
+
+	
+	
+}
+
+#menu ul li a
+{
+	text-decoration: none;
+	display: block;
+	color: black;
+	
+}
+
+
+#menu ul li a:hover
+{
+	background-color:#FFA500;
+	
+}
+
+#menu ul ul 
+{
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover > ul
+{
+	display: block;
+}
+
+
+
+/* Sub-Menu Part*/
+
+#menu ul ul ul
+{
+	margin-left: 251px;
+	top:0px;
+}
+
+
+/* Main part */
+
+#jatiya_sangsad_bhabon
+{
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Francois One', sans-serif;
+
+
+}
+
+/*Footer Part*/
+
+#footer
+{
+	height: 250px;
+	background-color: #C0C0C0;
+}
+
+.link
+{
+	float: left;
+}
+
+.link a
+{
+	text-decoration: none;
+	color: #0000FF;
+}
+
+
+.link a:hover
+{
+	text-decoration: underline;
+}
+
+.link a:visited
+{
+	color: #2F4F4F;
+}
+
+#develop_design
+{
+	margin-left: 420px;
+	font-size: 25px;
+	font-family: 'Francois One', sans-serif;
+}
+
+.useful_link
+{
+	font-size: 25px;
+	font-family: 'Francois One', sans-serif;
+}
+
+.footer_link
+{
+	font-size: 16px;
+	 font-family: 'Oswald', sans-serif;
+}
+
+#left_link
+{
+	margin-left: 30px;
+}
+
+#right_link
+{
+	float: right;
+	margin-right: 30px;
+}
+
+
+/*National Anthem Page*/
+
+
+#national_antham
+{
+	height: 3350px;
+	width: 1500px;
+	margin: auto;
+}
+
+
+#national_anthem_page
+{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+}
+
+
+
+#anthem_bangla
+{
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#anthem
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*Bangladesh at a glance page*/
+
+
+#bangladesh_glance_page
+
+{
+	width: 1500px;
+	height: 2000px;
+	margin: auto;
+}
+#bangladesh_glance
+
+{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 30px;
+	font-family: 'Amaranth', sans-serif;
+}
+
+
+#info_about_bangladesh
+
+{
+	font-size: 20px;
+	text-align: justify;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*History of Bangladesh Page*/
+
+
+.history_bangladesh_part
+{
+	width: 1500px;
+	height: 2150px;
+	margin: auto;
+}
+
+
+#history_bangladesh
+
+{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+	margin-top: 10px;
+
+}
+
+.history_bangladesh_text
+
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Religion and Culture Part*/
+
+#religion_culture
+
+{
+	width: 1500px;
+	height: 9600px;
+	margin: auto;
+}
+
+#religion
+{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	font-family: 'Amaranth', sans-serif;
+}
+
+#religion_bangladesh
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#culture
+
+{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	font-family: 'Amaranth', sans-serif;
+}
+
+#culture_bangladesh
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#dress
+{
+	font-size: 30px;
+	font-family: 'Amaranth', sans-serif;
+
+}
+
+#dress_bd_men
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.dress_bd
+{
+	float: left;
+	margin-left: 8px;
+}
+
+
+#culture_header
+{
+	font-size: 30px;
+	font-family: 'Amaranth', sans-serif;
+}
+
+
+#eid_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.eid_image
+{
+	float: left;
+	margin-left: 8px;
+}
+
+.culture_header
+{
+	font-size: 30px;
+	font-family: 'Amaranth', sans-serif;
+}
+
+.puja_image
+{
+	float: left;
+	margin-left: 8px;
+}
+
+#puja_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.pohela_boishakh_image
+{
+	float: left;
+	margin-left: 8px;
+}
+
+.pohela_boishakh_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.pohela_falgun_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.pohela_falgun_image
+{
+	float: left;
+	margin-left: 8px;
+}
+
+#adibashi_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 15px;
+
+}
+
+.adibashi
+{
+	float: left;
+}
+
+#nouka_baich_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.nouka_baich
+{
+	float: left;
+	margin-left: 12px;
+}
+
+
+.wedding_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.weeding_image
+{
+	float: left;
+	margin-left: 8px;
+}
+
+#jewelers
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Climate in Bangladesh part*/
+
+#climate_BD_page
+{
+	width: 1500px;
+	height: 2920px;
+	margin: auto;
+}
+
+#climate_BD
+{
+	font-size: 30px;
+	font-family: 'Amaranth', sans-serif;
+	text-align: center;
+}
+
+#climate_BD_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*National symbols of Bangladesh Page*/
+
+
+#national_symbol_page
+{
+	width: 1500px;
+	height: 6050px;
+	margin: auto;
+}
+
+
+
+
+#national_symbol_header
+{
+	font-size: 30px;
+	font-family: 'Amaranth', sans-serif;
+}
+
+#national_text
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	width: 1100px;
+}
+
+.national
+{
+	float: left;
+}
+
+#national_symbol_image
+{
+	margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
