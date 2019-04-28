@@ -10,9 +10,8 @@
 
 #wrap
 {
-	height: 1570px;
+	height: 1700px;
 	width: 1500px;
-	
 	margin: auto;
 
 }
@@ -72,6 +71,7 @@
 	font-family: 'Teko', sans-serif;
 	margin-top: 20px;
 	color: #FF0000;
+
 
 
 }
@@ -307,6 +307,7 @@
 	text-align: justify;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -579,6 +580,65 @@
 }
 
 .zoo_image
+{
+	float: left;
+	margin-left: 8px;
+}
+
+
+/*Rangamati Page*/
+
+
+#rangamati_page
+{
+	height: 5600px;
+	width: 1500px;
+	margin: auto;
+
+}
+
+#Rangamati
+{
+	font-size: 30px;
+	font-family: 'Teko', sans-serif;
+	margin-top: 20px;
+	color: #008000;
+
+
+
+}
+
+
+#rangamati_text
+
+{
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+
+	
+}
+
+#attraction
+{
+	font-size: 30px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Teko', sans-serif;
+	
+
+}
+
+.attraction
+{
+	font-size: 30px;
+	font-size: 30px;
+	font-family: 'Teko', sans-serif;
+	
+
+}
+
+.kaptai_lake_image
 {
 	float: left;
 	margin-left: 8px;
