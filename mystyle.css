@@ -10,7 +10,7 @@
 
 #wrap
 {
-	height: 1700px;
+	height: 1650px;
 	width: 1500px;
 	margin: auto;
 
@@ -79,7 +79,7 @@
 #bangladesh_text
 {
 	text-align: justify;
-	font-size: 23px;
+	font-size: 15px;
 
 
 }
@@ -99,7 +99,7 @@
 	text-align: center;
 	float: left;
 	background-color: #DCDCDC;
-	font-size: 21px;
+	font-size: 15px;
 	 font-family: 'Oswald', sans-serif;
 
 	
@@ -114,12 +114,57 @@
 	
 }
 
+/* New part Start*/
+
+#menu ul li a::after
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid blue;
+	border-bottom: 2px solid  blue;
+	transform: scaleY(1);
+	opacity: 0;
+	transition: all 0.5s;
+	box-sizing: border-box;
+}
+#menu ul li a:hover::after
+{
+	transform: scaleY(1);
+	opacity: 1;
+}
+.#menu ul li a::before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	
+	transform: scale(0);
+	transition: all 0.5s;
+	z-index: -1;
+}
+#menu ul li a:hover::before
+{
+	transform: scale(0.7);
+}
+/*  */
+
 
 #menu ul li a:hover
 {
 	background-color:#FFA500;
 	
 }
+
+
+
+
+/* New Part end */
 
 #menu ul ul 
 {
@@ -181,7 +226,7 @@
 
 .link a:visited
 {
-	color: #2F4F4F;
+	color: red;
 }
 
 #develop_design
@@ -199,7 +244,7 @@
 
 .footer_link
 {
-	font-size: 16px;
+	font-size: 15px;
 	 font-family: 'Oswald', sans-serif;
 }
 
@@ -220,7 +265,7 @@
 
 #national_antham
 {
-	height: 3350px;
+	height: 3050px;
 	width: 1500px;
 	margin: auto;
 }
@@ -245,7 +290,7 @@
 #anthem
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -258,7 +303,7 @@
 
 {
 	width: 1500px;
-	height: 2000px;
+	height: 1600px;
 	margin: auto;
 }
 #bangladesh_glance
@@ -274,7 +319,7 @@
 #info_about_bangladesh
 
 {
-	font-size: 20px;
+	font-size: 15px;
 	text-align: justify;
 	margin-top: 10px;
 	font-family: 'Open Sans', sans-serif;
@@ -286,7 +331,7 @@
 .history_bangladesh_part
 {
 	width: 1500px;
-	height: 2150px;
+	height: 1800px;
 	margin: auto;
 }
 
@@ -305,7 +350,7 @@
 
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 
 }
@@ -317,7 +362,7 @@
 
 {
 	width: 1500px;
-	height: 9600px;
+	height: 8400px;
 	margin: auto;
 }
 
@@ -332,7 +377,7 @@
 #religion_bangladesh
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -348,7 +393,7 @@
 #culture_bangladesh
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -362,7 +407,7 @@
 #dress_bd_men
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -383,7 +428,7 @@
 #eid_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -408,7 +453,7 @@
 #puja_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -421,14 +466,14 @@
 .pohela_boishakh_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .pohela_falgun_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -443,7 +488,7 @@
 #adibashi_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	margin-left: 15px;
 
@@ -457,7 +502,7 @@
 #nouka_baich_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	
 }
@@ -472,7 +517,7 @@
 .wedding_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -485,7 +530,7 @@
 #jewelers
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -495,7 +540,7 @@
 #climate_BD_page
 {
 	width: 1500px;
-	height: 2920px;
+	height: 2220px;
 	margin: auto;
 }
 
@@ -509,7 +554,7 @@
 #climate_BD_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -521,7 +566,7 @@
 #national_symbol_page
 {
 	width: 1500px;
-	height: 5800px;
+	height: 5700px;
 	margin: auto;
 }
 
@@ -537,7 +582,7 @@
 #national_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	width: 1100px;
 }
@@ -559,7 +604,7 @@
 .national_zoo
 {
 	width: 1500px;
-	height: 3200px;
+	height: 2850px;
 	margin: auto;
 
 }
@@ -574,7 +619,7 @@
 #national_zoo_text
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	
 }
@@ -591,20 +636,19 @@
 
 #rangamati_page
 {
-	height: 5600px;
+	height: 4750px;
 	width: 1500px;
 	margin: auto;
 
 }
 
 #Rangamati
+
 {
 	font-size: 30px;
 	font-family: 'Teko', sans-serif;
 	margin-top: 20px;
 	color: #008000;
-
-
 
 }
 
@@ -613,7 +657,7 @@
 
 {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 
 	
@@ -643,6 +687,44 @@
 	float: left;
 	margin-left: 8px;
 }
+
+
+/**/
+
+
+
+#Bandarban_Page
+{
+	height: 8250px;
+	width: 1500px;
+	margin: auto;
+
+}
+#Bandarban
+
+{
+	font-size: 30px;
+	font-family: 'Teko', sans-serif;
+	margin-top: 20px;
+	color: #008000;
+}
+
+#Bandarban_Text
+
+{
+	text-align: justify;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+
+	
+}
+
+.sangu_river_image
+{
+	float: left;
+	margin-left: 8px;
+}
+
 
 
 
